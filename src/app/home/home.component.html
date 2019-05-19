@@ -1,0 +1,617 @@
+<section id="BakHmGYm">
+          <div class="HmGYmBack"></div>
+
+          <div class="container">
+            <div class="HmContentWrap">
+                  <div class="HmTitleWrap">
+                        <h1>Your brain hightech<br> and math training</h1>
+                        <h2>Change the way of learning!</h2>
+                  </div>
+                  <div id="searchForm">
+                      <form (ngSubmit)="onSubmit(Hmform)" class="HmFormGym" #Hmform="ngForm">
+                          <div class="HomeInttitle">What are you looking for?</div>
+                          <div class="HomeIntTx">
+                              <input type="text" name="What are you looking for?" id="">
+                          </div>
+                          <div class="HomeSelct">
+                              <select class="form-control" id="selectHome" ngModel name="selectHome">
+                                  <option value=""></option>
+                                  <option *ngFor="" [value]="selectHome">{{selectHome}}</option>
+                              </select>
+                            </div>
+                          <div class="HomeBTnSelct">
+                            <input type="submit" name="submit" (click)="openDialog()" value="Search" class="lgGrlBtnMGU">
+                          </div>
+                      </form>
+                  </div>
+              </div>
+          </div>
+
+    </section>
+
+
+
+<!--carousel-->
+<section id="product">
+  <div class="container">
+    <div class="HmTitleBox">
+        <h1>OUR PRODUCTS</h1>
+    </div>
+
+        <div class="conproduc">
+                  <mat-tab-group>
+                    <mat-tab>
+                      <ng-template mat-tab-label>
+
+                        <div class="hmTabIc">
+                              <div class="hmTabIcoN">icono</div>
+                              <div class="hmTabIcTitle"><h1>Tutoring</h1></div>
+                        </div>
+                      </ng-template>
+                      <div class="warptab">
+                            <div class="lefttab">
+                              <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab" href="#btn1">One-on-one<br> Private Tutoring <span>></span></a></li>
+                                <li><a data-toggle="tab" href="#btn2">Small Group <br>Classroom Teaching <span>></span></a></li>
+                                <li><a data-toggle="tab" href="#btn3">Online Tutoring<span>></span></a></li>
+                              </ul>
+                            </div>
+
+                            <div class="righttab">
+                              <div class="tab-content">
+                                <div id="btn1" class="tab-pane fade in active">
+                                  <h3>HOME</h3>
+                                  <p>Some content.</p>
+                                </div>
+                                <div id="btn2" class="tab-pane fade">
+                                  <h3>Menu 1</h3>
+                                  <p>Some content in menu 1.</p>
+                                </div>
+                                <div id="btn3" class="tab-pane fade">
+                                  <h3>Menu 2</h3>
+                                  <p>Some content in menu 2.</p>
+                                </div>
+                              </div>
+
+                            </div>
+                      </div>
+                    </mat-tab>
+
+                    <mat-tab>
+                      <ng-template mat-tab-label>
+                        <div><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></div>
+                        <!--<mat-icon class="example-tab-icon">thumb_up</mat-icon>-->
+                        <div class="hmTabIc">
+                              <div class="hmTabIcoN">icono</div>
+                              <div class="hmTabIcTitle"><h1>Courses</h1></div>
+                        </div>
+                      </ng-template>
+                      <div class="warptab">
+                            <div class="lefttab">
+                              <ul class="nav nav-tabs">
+                                <li class="active"><a href="#btn1" data-toggle="tab">Bootstrap</a></li>
+                                <li><a href="#btn2" data-toggle="tab">Menu 1</a></li>
+                                <li><a href="#btn3" data-toggle="tab">Menu 2</a></li>
+                              </ul>
+                            </div>
+
+                            <div class="righttab">
+                              <div class="tab-content">
+                                <div class="tab-pane active" id="btn1">
+                                  <h3>HOME</h3>
+                                  <p>Some content.</p>
+                                </div>
+                                <div class="tab-pane" id="btn2">
+                                  <h3>Menu 1</h3>
+                                  <p>Some content in menu 1.</p>
+                                </div>
+                                <div class="tab-pane" id="btn3">
+                                  <h3>Menu 2</h3>
+                                  <p>Some content in menu 2.</p>
+                                </div>
+                              </div>
+
+                            </div>
+                      </div>
+                    </mat-tab>
+
+                    <mat-tab>
+                      <ng-template mat-tab-label>
+                        <!--<mat-icon class="example-tab-icon">thumb_up</mat-icon>-->
+                        <div class="hmTabIc">
+                              <div class="hmTabIcoN">icono</div>
+                              <div class="hmTabIcTitle"><h1>Programs</h1></div>
+                        </div>
+                      </ng-template>
+
+                      Content 3
+                    </mat-tab>
+
+                    <mat-tab>
+                      <ng-template mat-tab-label>
+                        <!--<mat-icon class="example-tab-icon">thumb_up</mat-icon>-->
+                        <div class="hmTabIc">
+                              <div class="hmTabIcoN">icono</div>
+                              <div class="hmTabIcTitle"><h1>E-learning &<br> Teaching</h1></div>
+                        </div>
+                      </ng-template>
+
+                      Content 3
+                    </mat-tab>
+
+
+                    <mat-tab>
+                      <ng-template mat-tab-label>
+                        <!--<mat-icon class="example-tab-icon">thumb_up</mat-icon>-->
+                        <div class="hmTabIc">
+                              <div class="hmTabIcoN">icono</div>
+                              <div class="hmTabIcTitle"><h1>Standardized Test<br> Prep(All Subjects)</h1></div>
+                        </div>
+                      </ng-template>
+
+                      Content 3
+                    </mat-tab>
+
+                  </mat-tab-group>
+            </div>
+      </div>
+</section>
+
+<!--carousel-->
+
+
+
+
+<!--MOST POPULAR COURSES-->
+<section id="hmcours">
+  <div class="container">
+    <div class="HmTitleBox">
+        <h1>MOST POPULAR COURSES</h1>
+    </div>
+
+<div class="conCurs">
+      <div class="col-md-3">
+         <div class="CoursCard">
+              <div class="CoursCargImage">
+                <a routerLink="/"><img src="assets/images/course1.png" alt="pro1"></a>
+              </div>
+              <div class="CoursCargTitle">
+                  <a routerLink="/"><h1>Algebra I</h1></a>
+              </div>
+              <div class="CoursratingBox">
+                  <div class="Coursrating"></div>
+                  <div class="CoursTxt"><strong>5.0</strong><p>(255)</p></div>
+              </div>
+              <div class="CoursPrice">
+                  <p>$15.99 USD</p>
+              </div>
+              <div class="CoursBtnBox">
+                  <div class="xsGrlBtnMGU smFont">
+                        <a routerLink="/">  View ></a>
+                  </div>
+              </div>
+         </div>
+      </div>
+
+      <div class="col-md-3">
+         <div class="CoursCard">
+              <div class="CoursCargImage">
+                <a routerLink="/"><img src="assets/images/course2.png" alt="pro1"></a>
+              </div>
+              <div class="CoursCargTitle">
+                  <a routerLink="/"><h1>Algebra I. India's methodology</h1></a>
+              </div>
+              <div class="CoursratingBox">
+                  <div class="Coursrating"></div>
+                  <div class="CoursTxt"><strong>5.0</strong><p>(255)</p></div>
+              </div>
+              <div class="CoursPrice">
+                  <p>$15.99 USD</p>
+              </div>
+              <div class="CoursBtnBox">
+                  <div class="xsGrlBtnMGU smFont">
+                        <a routerLink="/">  View ></a>
+                  </div>
+              </div>
+         </div>
+      </div>
+
+      <div class="col-md-3">
+         <div class="CoursCard">
+              <div class="CoursCargImage">
+                <a routerLink="/"><img src="assets/images/course1.png" alt="pro1"></a>
+              </div>
+              <div class="CoursCargTitle">
+                  <a routerLink="/"><h1>Statitics</h1></a>
+              </div>
+              <div class="CoursratingBox">
+                  <div class="Coursrating"></div>
+                  <div class="CoursTxt"><strong>5.0</strong><p>(255)</p></div>
+              </div>
+              <div class="CoursPrice">
+                  <p>$15.99 USD</p>
+              </div>
+              <div class="CoursBtnBox">
+                  <div class="xsGrlBtnMGU smFont">
+                        <a routerLink="/">  View ></a>
+                  </div>
+              </div>
+         </div>
+      </div>
+
+      <div class="col-md-3">
+         <div class="CoursCard">
+              <div class="CoursCargImage">
+                <a routerLink="/"><img src="assets/images/course2.png" alt="pro1"></a>
+              </div>
+              <div class="CoursCargTitle">
+                  <a routerLink="/"><h1>PreCalculus</h1></a>
+              </div>
+              <div class="CoursratingBox">
+                  <div class="Coursrating"></div>
+                  <div class="CoursTxt"><strong>5.0</strong><p>(255)</p></div>
+              </div>
+              <div class="CoursPrice">
+                  <p>$15.99 USD</p>
+              </div>
+              <div class="CoursBtnBox">
+                  <div class="xsGrlBtnMGU smFont">
+                        <a routerLink="/">  View ></a>
+                  </div>
+              </div>
+         </div>
+      </div>
+</div>
+
+
+
+      <div class="AllBtnBox">
+          <div class="outlineBtn">
+              <a routerLink="/"> Ver todos</a>
+          </div>
+      </div>
+    </div>
+</section>
+<!--endMOST POPULAR COURSES-->
+
+
+<!---->
+<section id="HomeFtutorBox">
+      <div class="container">
+        <div class="col-md-6">
+              auì va imagen
+        </div>
+        <div class="col-md-6">
+            <div class="HmFtutorBX">
+                <h1>Do you want a tutor?</h1>
+                <p>Customize your search and find the best tutor for you</p>
+            </div>
+            <div class="AllBtnBoxNoMrg">
+              <div class="lgGrlBtnMGU">
+                  <a routerLink="/FormFilterMGUComponent"> Find a tutor</a>
+              </div>
+            </div>
+        </div>
+      </div>
+</section>
+<!---->
+
+
+
+
+<!--sectionpro-->
+<section id="hmprog">
+<div class="container">
+
+    <div class="HmTitleBox">
+        <h1>Popular PROGRAMS</h1>
+    </div>
+
+  <div class="conProg">
+    <div class="col-md-6">
+          <div class="progCard">
+                <div class="col-md-5 boxprogimg">
+                      <div class="progCargImage">
+                          <a routerLink="/"><img src="assets/images/robot.png" alt="image"></a>
+                      </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="progCargTitle">
+                        <a routerLink="/"><h1>Robotics</h1></a>
+                    </div>
+                    <div class="progratingBox">
+                        <div class="prograting"></div>
+                        <div class="progratingTxt"><strong>5.0</strong><p>(255)</p></div>
+                    </div>
+                    <div class="progPrice">
+                        <p>$15.99 USD</p>
+                    </div>
+                    <div class="progDescr">
+                      <p>El Instituto Colombiano para la Evaluación de la Educación – Icfes- anunció que ampliará por dos semanas más, el plazo para que grupos de investigación y estudiantes de posgrados interesados en participar de las convocatorias que adelanta el Instituto, presenten sus proyectos.</p>
+                    </div>
+                    <div class="progBtnBox">
+                        <div class="xsGrlBtnMGU xsFont">
+                              <a routerLink="/">  View  program</a>
+                        </div>
+                    </div>
+                </div>
+          </div>
+</div>
+<div class="col-md-6">
+          <div class="progCard">
+                <div class="col-md-5 boxprogimg">
+                      <div class="progCargImage">
+                          <a routerLink="/"><img src="assets/images/teacher.png" alt="image"></a>
+                      </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="progCargTitle">
+                        <a routerLink="/"><h1>After School program</h1></a>
+                    </div>
+                    <div class="progratingBox">
+                        <div class="prograting"></div>
+                        <div class="progratingTxt"><strong>5.0</strong><p>(255)</p></div>
+                    </div>
+                    <div class="progPrice">
+                        <p>$15.99 USD</p>
+                    </div>
+                    <div class="progDescr">
+                      <p>El Instituto Colombiano para la Evaluación de la Educación – Icfes- anunció que ampliará por dos semanas más, el plazo para que grupos de investigación y estudiantes de posgrados interesados en participar de las convocatorias que adelanta el Instituto, presenten sus proyectos.</p>
+                    </div>
+                    <div class="progBtnBox">
+                        <div class="xsGrlBtnMGU xsFont">
+                              <a routerLink="/">  View  program</a>
+                        </div>
+                    </div>
+                </div>
+          </div>
+
+    </div>
+  </div>
+
+    <div class="AllBtnBox">
+        <div class="outlineBtn">
+            <a routerLink="/">SEE ALL PROGRAMS</a>
+        </div>
+    </div>
+
+    </div>
+  </section>
+
+  <!--sectionprog-->
+
+
+  <!--seccion testimonios--->
+
+  <!--SectionTestimo-->
+<section id="testimonyBox">
+    <div class="container">
+        <div class="HmTitleBox">
+            <h1>TESTIMONIES</h1>
+        </div>
+
+
+
+        <div class="col-md-12">
+            <div class="sliderTestmony">
+                <div id="testCarousel" class="carousel slide" data-ride="carousel">
+
+                              <!-- Indicators -->
+                              <ul class="carousel-indicators">
+                                <li data-target="#testCarousel" data-slide-to="0" class="active"></li>
+                                <li data-target="#testCarousel" data-slide-to="1"></li>
+                                <li data-target="#testCarousel" data-slide-to="2"></li>
+                              </ul>
+
+                                                <!-- The slideshow -->
+                                                <div class="carousel-inner">
+                                                  <div class="carousel-item active">
+                                                    <div class="item">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                  <div class="testomnyWrap">
+                                                                        <div class="testomnyPhotoW">
+                                                                              <div class="testiPhoto">
+                                                                                  <img src="assets/images/test1.png" alt="photo">
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="testTxtHm">
+                                                                            <div class="testTxtHmTitle">
+                                                                                <h1>Daenerys Targaryen</h1>
+                                                                            </div>
+                                                                            <div class="testTxtHmplace">
+                                                                                <p>Canadá</p>
+                                                                            </div>
+                                                                            <div class="testTxtHmCita">
+                                                                                  <p><span>&#8220;</span>“MathGymUSA is the best platform for learning”<span>&#8221;</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+
+                                                            <div class="col-md-4">
+                                                                  <div class="testomnyWrap">
+                                                                        <div class="testomnyPhotoW">
+                                                                              <div class="testiPhoto">
+                                                                                  <img src="assets/images/test2.png" alt="photo">
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="testTxtHm">
+                                                                            <div class="testTxtHmTitle">
+                                                                                <h1>Jaime Lannister</h1>
+                                                                            </div>
+                                                                            <div class="testTxtHmplace">
+                                                                                <p>United States</p>
+                                                                            </div>
+                                                                            <div class="testTxtHmCita">
+                                                                                  <p><span>&#8220;</span>“MathGymUSA is the best platform for learning”<span>&#8221;</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+
+                                                            <div class="col-md-4">
+                                                                  <div class="testomnyWrap">
+                                                                        <div class="testomnyPhotoW">
+                                                                              <div class="testiPhoto">
+                                                                                  <img src="assets/images/test3.png" alt="photo">
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="testTxtHm">
+                                                                            <div class="testTxtHmTitle">
+                                                                                <h1>Jon Snow</h1>
+                                                                            </div>
+                                                                            <div class="testTxtHmplace">
+                                                                                <p>London</p>
+                                                                            </div>
+                                                                            <div class="testTxtHmCita">
+                                                                                  <p><span>&#8220;</span>“MathGymUSA is the best platform for learning is the best platform for learning”<span>&#8221;</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                  <div class="carousel-item">
+                                                    <div class="item">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                  <div class="testomnyWrap">
+                                                                        <div class="testomnyPhotoW">
+                                                                              <div class="testiPhoto">
+                                                                                  <img src="assets/images/test1.png" alt="photo">
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="testTxtHm">
+                                                                            <div class="testTxtHmTitle">
+                                                                                <h1>Arya Stark</h1>
+                                                                            </div>
+                                                                            <div class="testTxtHmplace">
+                                                                                <p>Canadá</p>
+                                                                            </div>
+                                                                            <div class="testTxtHmCita">
+                                                                                  <p><span>&#8220;</span>“MathGymUSA is the best platform for learning”<span>&#8221;</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+
+                                                            <div class="col-md-4">
+                                                                  <div class="testomnyWrap">
+                                                                        <div class="testomnyPhotoW">
+                                                                              <div class="testiPhoto">
+                                                                                  <img src="assets/images/test2.png" alt="photo">
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="testTxtHm">
+                                                                            <div class="testTxtHmTitle">
+                                                                                <h1>Tyrion Lannister</h1>
+                                                                            </div>
+                                                                            <div class="testTxtHmplace">
+                                                                                <p>United States</p>
+                                                                            </div>
+                                                                            <div class="testTxtHmCita">
+                                                                                  <p><span>&#8220;</span>“MathGymUSA is the best platform for learning”<span>&#8221;</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+
+                                                            <div class="col-md-4">
+                                                                  <div class="testomnyWrap">
+                                                                        <div class="testomnyPhotoW">
+                                                                              <div class="testiPhoto">
+                                                                                  <img src="assets/images/test3.png" alt="photo">
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="testTxtHm">
+                                                                            <div class="testTxtHmTitle">
+                                                                                <h1>Brienne de Tarth</h1>
+                                                                            </div>
+                                                                            <div class="testTxtHmplace">
+                                                                                <p>London</p>
+                                                                            </div>
+                                                                            <div class="testTxtHmCita">
+                                                                                  <p><span>&#8220;</span>“MathGymUSA is the best platform for learning is the best platform for learning”<span>&#8221;</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  </div><div class="carousel-item">
+                                                    <div class="item">
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                  <div class="testomnyWrap">
+                                                                        <div class="testomnyPhotoW">
+                                                                              <div class="testiPhoto">
+                                                                                  <img src="assets/images/test1.png" alt="photo">
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="testTxtHm">
+                                                                            <div class="testTxtHmTitle">
+                                                                                <h1>Cersei Lannister</h1>
+                                                                            </div>
+                                                                            <div class="testTxtHmplace">
+                                                                                <p>Canadá</p>
+                                                                            </div>
+                                                                            <div class="testTxtHmCita">
+                                                                                  <p><span>&#8220;</span>“MathGymUSA is the best platform for learning”<span>&#8221;</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+
+                                                            <div class="col-md-4">
+                                                                  <div class="testomnyWrap">
+                                                                        <div class="testomnyPhotoW">
+                                                                              <div class="testiPhoto">
+                                                                                  <img src="assets/images/test2.png" alt="photo">
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="testTxtHm">
+                                                                            <div class="testTxtHmTitle">
+                                                                                <h1>Theon Greyjoy</h1>
+                                                                            </div>
+                                                                            <div class="testTxtHmplace">
+                                                                                <p>United States</p>
+                                                                            </div>
+                                                                            <div class="testTxtHmCita">
+                                                                                  <p><span>&#8220;</span>“MathGymUSA is the best platform for learning”<span>&#8221;</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+
+                                                            <div class="col-md-4">
+                                                                  <div class="testomnyWrap">
+                                                                        <div class="testomnyPhotoW">
+                                                                              <div class="testiPhoto">
+                                                                                  <img src="assets/images/test3.png" alt="photo">
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="testTxtHm">
+                                                                            <div class="testTxtHmTitle">
+                                                                                <h1>Tormund Giantsbane</h1>
+                                                                            </div>
+                                                                            <div class="testTxtHmplace">
+                                                                                <p>London</p>
+                                                                            </div>
+                                                                            <div class="testTxtHmCita">
+                                                                                  <p><span>&#8220;</span>“MathGymUSA is the best platform for learning is the best platform for learning”<span>&#8221;</span></p>
+                                                                            </div>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                  </div>
+                                                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

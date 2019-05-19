@@ -1,0 +1,654 @@
+#hmcours{
+  width: 100%;
+  display:block;
+  float:left;
+  padding:20px 0px;
+}
+#hmprog{
+  width: 100%;
+  display:block;
+  float:left;
+  padding:20px 0px;
+}
+.HmTitleBox{
+  width:100%;
+  float:left;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  margin:20px;
+}
+.HmTitleBox h1{
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:21px;
+  line-height:28px;
+  color:#47AD4D;
+  text-transform: uppercase;
+  letter-spacing:1px;
+}
+/**Home**/
+.boxheaderMGU{
+  position:absolute!important;
+  background:none!important;
+  box-shadow:none!important;
+}
+
+
+#BakHmGYm{
+  width: 100%;
+  height:auto;
+  position: relative;
+  overflow: hidden;
+  top: 0;
+  padding-bottom: 15%;
+}
+#gymVideoUsa {
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    object-fit: cover;
+    opacity: 0.38;
+}
+.HmGYmBack{
+  position: absolute;
+    min-width: 100%;
+    height: 100%;
+    background: url('/assets/images/BackHome.jpg') center center;
+    background-repeat:no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    display: inline-block;
+}
+.HmContentWrap{
+  width:100%;
+  height:auto;
+  display:block;
+  float:left;
+  text-align:center;
+  margin-top:15%;
+}
+.HmTitleWrap{
+  width:100%;
+  height:auto;
+  display:block;
+  float:left;
+  text-align:center;
+  position:relative;
+}
+.HmTitleWrap h1{
+  font-family:'OpenSans-ExtraBold', arial, helvetica, sans-serif;
+  text-align:center;
+  color:#FFF;
+  font-size: 48px;
+  line-height:65px;
+}
+
+.HmTitleWrap h2{
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  text-align:center;
+  color:#FFF;
+  font-size:24px;
+  line-height:48px;
+}
+
+
+#searchForm{
+  width:100%;
+  height:auto;
+  display:block;
+  float:left;
+  text-align:center;
+  position:relative;
+  padding:40px 0px;
+}
+.HmFormGym{
+  width:100%;
+  float:left;
+  display:block;
+}
+.HomeIntTx{
+  width:60%;
+  float:left;
+  display:block;
+  margin:0;
+  padding:0;
+}
+.HomeInttitle{
+  width:100%;
+  display:block;
+  float:left;
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  font-size:21px;
+  line-height:21px;
+  text-align:left;
+  color:#FFF;
+  padding:10px 0px;
+}
+.HomeIntTx input{
+  width:100%;
+  height:50px;
+  border:none;
+display:block;
+float:left;
+padding:10px 20px;
+}
+.HomeSelct{
+  width:20%;
+  float:left;
+  display:block;
+  margin:0;
+  padding:0;
+  border-left:1px solid #999;
+}
+.HomeSelct select{
+  width:100%;
+  height:50px;
+  border:none;
+  border-radius:0;
+}
+.HomeBTnSelct{
+  width:20%;
+  float:left;
+  display:block;
+  margin:0;
+  padding:0;
+}
+#testimonyBox{
+  width:100%;
+  float:left;
+  display:block;
+  background:#EEE;
+  padding:40px 20px;
+}
+.sliderTestmony{
+width: 100%;
+margin: 20px 0px;
+padding: 20px 0px;
+height: auto;
+display: block;
+}
+.testomnyWrap{
+  width:100%;
+  display:block;
+  float:left;
+}
+.testomnyPhotoW{
+  width:30%;
+  display:block;
+  float:left;
+}
+.testiPhoto{
+  width:90px;
+  height:90px;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  background:#CCC;
+  overflow:hidden;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.testiPhoto img{
+  width:auto;
+  height:100%;
+}
+.testTxtHm{
+  width:70%;
+  display:block;
+  float:left;
+  padding:10px;
+}
+.testTxtHmTitle{
+  width:100%;
+  display:block;
+  float:left;
+}
+.testTxtHmTitle h1{
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:16px;
+  text-align: left;
+  color:#000;
+  margin:0; padding:0;
+}
+.testTxtHmplace{
+  width:100%;
+  display:block;
+  float:left;
+  padding:5px 0px;
+}
+.testTxtHmplace p{
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  font-size:16px;
+  text-align: left;
+  color:#333;
+  font-style: italic;
+  margin:0; padding:0;
+}
+.testTxtHmCita{
+  width:100%;
+  max-height:90px;
+  display:block;
+  float:left;
+  padding:5px 0px;
+  overflow:hidden;
+}
+.testTxtHmCita p{
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  font-size:14px;
+  text-align: left;
+  color:#333;
+  margin:0; padding:0;
+}
+.testTxtHmCita span{
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  font-size:14px;
+  text-align: left;
+  color:#333;
+  font-weight:bold;
+  margin:0px 5px;
+}
+#testCarousel .carousel-indicators{bottom:-60px;}
+#testCarousel .carousel-indicators li {
+  width:15px;
+  height:15px;
+  border:none!important;
+  border-radius:50%;
+  -webkit-border-radius:50%;
+  -moz-border-radius:50%;
+  padding:0!important;
+  margin:5px;
+  background:#47AD4D;
+}
+.carousel-indicators li .active{opacity:1!important;}
+
+#HomeFtutorBox{
+  width:100%;
+  display:block;
+  float:left;
+  padding:40px 20px;
+  background:#E9F5E9;
+}
+.HmFtutorBX{
+  width:100%;
+  display:block;
+  float:left;
+}
+.HmFtutorBX h1{
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:32px;
+  text-align: left;
+  color:#000;
+  font-weight:bold;
+}
+.HmFtutorBX p{
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:16px;
+  text-align: left;
+  color:#333;
+}
+
+.CoursCard{
+width:100%;
+display:block;
+float:left;
+height: auto;
+background:#FFF;
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+box-shadow:2px 2px 8px #CCC;
+}
+
+.CoursCargImage{
+width: 100%;
+height: 120px;
+display: block;
+float: left;
+overflow: hidden;
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+-webkit-border-top-left-radius:10px;
+-webkit-border-top-right-radius:10px;
+-moz-border-top-left-radius:10px;
+-moz-border-top-right-radius:10px;
+}
+.CoursCargImage img{width:100%;}
+.CoursCargTitle{
+width: 100%;
+height:50px;
+display: block;
+overflow: hidden;
+float: left;
+padding:5px 20px;
+}
+.CoursCargTitle a{
+  text-decoration: none;
+}
+.CoursCargTitle a h1:hover{color:#47AD4D; text-decoration:none;}
+.CoursCargTitle h1{
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:16px;
+  line-height:21px;
+  text-align:left;
+  color:#000000;
+}
+.CoursratingBox{
+  width: 100%;
+  height: 30px;
+  display: block;
+  overflow: hidden;
+  float: left;
+  padding:10px 20px;
+}
+.Coursrating{
+  width:auto;
+  padding:0px 10px 0px 0px;
+  display:inline-block;
+}
+.CoursTxt{
+  width:auto;
+  padding:0px 10px;
+  display:inline-block;
+}
+.CoursTxt strong{
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  color:#000000;
+  display:inline-block;
+  padding:0px 10px;
+}
+.CoursTxt p{
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  color:#000000;
+  display:inline-block;
+  padding:0px 10px;
+}
+.CoursPrice{
+  width: 100%;
+  height: 30px;
+  display: block;
+  overflow: hidden;
+  float: left;
+  padding:10px 20px;
+}
+.CoursPrice p{
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  font-size:16px;
+  color:#47AD4D;
+  text-align:left;
+}
+.CoursBtnBox{
+  width: 100%;
+  height: auto;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin:20px 0px;
+  float:left;
+}
+.conCurs{
+  width:100%;
+  display:block;
+  float:left;
+  margin:20px 0px;
+}
+
+.conProg{
+  width:100%;
+  display:block;
+  float:left;
+  margin:20px 0px;
+}
+
+.progCard{
+width:100%;
+display:block;
+float:left;
+height: auto;
+background:#FFF;
+border-radius:10px;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+box-shadow:2px 2px 8px #CCC;
+}
+.boxprogimg{
+  padding-left:0;
+  padding-right:0;
+}
+.progCargImage{
+width: 100%;
+height:auto;
+display:flex;
+justify-content: center;
+align-items: center;
+float: left;
+overflow: hidden;
+border-top-left-radius:10px;
+border-bottom-left-radius:10px;
+-webkit-border-top-left-radius:10px;
+-webkit-border-bottom-left-radius:10px;
+-moz-border-top-left-radius:10px;
+-moz-border-bottom-left-radius:10px;
+}
+.progCargImage img{
+  /*width:100%; */ max-height:213px; object-fit:contain;}
+.progCargTitle{
+width: 100%;
+height: 60px;
+display: block;
+overflow: hidden;
+float: left;
+padding:20px 0px 5px 0px;
+}
+.progCargTitle a{
+  text-decoration: none;
+}
+.progCargTitle a h1:hover{color:#47AD4D; text-decoration:none;}
+.progCargTitle h1{
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:16px;
+  line-height:21px;
+  text-align:left;
+  color:#000000;
+  margin:0;
+}
+.progratingBox{
+  width: 100%;
+  height:auto;
+  display: block;
+  overflow: hidden;
+  float: left;
+  padding:0px;
+}
+.prograting{
+  width:auto;
+  padding:0px 10px 0px 0px;
+  display:inline-block;
+}
+.progratingTxt{
+  width:auto;
+  padding:0px 10px;
+  display:inline-block;
+}
+.progratingTxt strong{
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:12px;
+  font-weight:bold;
+  color:#000000;
+  display:inline-block;
+  padding:0px 10px;
+}
+.progratingTxt p{
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+  color:#000000;
+  display:inline-block;
+  padding:0px 10px;
+  margin:0;
+}
+.progPrice{
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  float: left;
+  padding:0px;
+}
+.progPrice p{
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  font-size:14px;
+  color:#47AD4D;
+  text-align:left;
+  margin:0;
+}
+.progDescr{
+  width: 100%;
+  height:45px;
+  display: block;
+  overflow: hidden;
+  float: left;
+  padding:5px 0px;
+}
+.progDescr p{
+  font-family:'OpenSans-Regular', arial, helvetica, sans-serif;
+  font-size:12px;
+  color:#333;
+  text-align:left;
+}
+.progBtnBox{
+  width:60%;
+  height:auto;
+  display:block;
+  float:left;
+  text-transform:uppercase;
+}
+.progBtnBox .xsGrlBtnMGU{ margin:5px 0px 20px 0px; letter-spacing: 1px;}
+
+
+#product{
+  width:100%;
+  display:block;
+  float:left;
+  padding:20px 0;
+}
+.conproduc{
+  width: 100%;
+    display: block;
+    float: left;
+    margin: 20px 0px;
+}
+
+.warptab{
+  width:100%;
+  float:left;
+  display:block;
+  padding:20px;
+  background:#47AD4D;
+  color:#FFF;
+}
+.mat-tab-label {
+    min-width: 25px !important;
+    height:100px!important;
+    padding: 5px;
+    background-color: transparent;
+    color: red;
+    font-weight: 700;
+}
+/deep/.mat-tab-label, /deep/.mat-tab-label-active{
+  height:100px!important;
+  border-right:1px solid #CCC;
+  padding:0 20px;
+  min-width:120px;
+/*  max-width:170px;*/
+}
+
+
+/* Styles for the active tab label */
+.mat-tab-label.mat-tab-label-active {
+    min-width: 25px !important;
+    padding: 5px;
+    background-color: transparent;
+    color: red;
+    font-weight: 700;
+}
+
+.lefttab{
+  width:30%;
+  display:block;
+  float:left;
+}
+.righttab{
+  width:70%;
+  display:block;
+  float:left;
+  padding:20px;
+}
+.lefttab ul{
+  list-style: none;
+}
+.lefttab li{
+  width:100%;
+  display:block;
+  float:left;
+  margin:10px 0px;
+}
+.lefttab li a{
+  width:100%;
+  display:inline-block;
+  text-align:left;
+  background:#FFF;
+  padding:20px;
+  border-radius:5px!important;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  color:#000!important;
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:18px;
+  line-height:26px;
+}
+.nav-tabs{border-bottom:none;}
+.lefttab li a span{
+  float:right;
+  display:inline-block;
+  width:20px;
+  height:20px;
+  align-items: center;
+  right:0;
+}
+.hmTabIc{
+  width:100%;
+  height:;
+  display:block;
+  float:left;
+  padding:5px;
+}
+.hmTabIcoN{
+  width:100%;
+  display:block;
+  float:left;
+  margin:10px;
+  /*fontfamily,size...*/
+}
+.hmTabIcTitle{
+  width:100%;
+  display:block;
+  float:left;
+  text-align:center,
+}
+.hmTabIcTitle h1{
+  font-family:'OpenSans-Bold', arial, helvetica, sans-serif;
+  font-size:16px;
+  color:#000;
+}

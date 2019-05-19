@@ -1,0 +1,63 @@
+.BigTitleMGy{
+	width:100%;
+	height:auto;
+	display:block;
+	float:left;
+	text-align:left;
+	margin:40px 0px 20px 0px;
+}
+.BigTitleMGy h1{
+	font-family: 'OpenSans-Light', Arial, sans-serif;
+	color:#333;
+	text-align:left;
+	font-size:3em;
+}
+.BigTitleMGy h1 strong{
+	font-family: 'OpenSans-ExtraBold', Arial, sans-serif;
+}
+.FormWrapfilter{
+	width:100%;
+	height:auto;
+	display:block;
+	float:left;
+	background:#FFF;
+	box-shadow:3px 3px 15px #CCC;
+	padding:20px;
+	margin-bottom:20px;
+}
+#progressTutr{
+	width:100%;
+	height:auto;
+	display:block;
+	float:left;
+	padding:20px;
+}
+.progressTutrTt{
+	width:100%;
+	height:auto;
+	float:left;
+	display:block;
+}
+.progressTutrTt h2{
+	font-family:'OpenSans-Bold', Arial, sans-serif;
+	font-size:1em;
+	color:#47AD4D;
+}
+.notiInf{
+    width:100%;
+    background:#D9EDF7;
+    border: 1px solid #BCE8F1;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    padding:10px 20px;
+    margin:40px 0px;
+    display:block;
+    float:left;
+}
+.notiInf p{
+    color:#31708F;
+    font-family:'OpenSans-Bold', Arial, sans-serif;
+    font-size:1em;
+		margin-bottom:0px;
+}

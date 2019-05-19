@@ -1,0 +1,294 @@
+.boxheaderMGU{
+  width:100%;
+  display:block;
+  float:left;
+  background:#EEE;
+  padding:10px 20px;
+  position:relative; top:0;
+  box-shadow:2px 2px 10px #CCC;
+}
+.OnlyHomeboxheader{
+  position:absolute;
+  top:0;
+  background:none;
+}
+.boxnavMGU{
+  width:100%;
+  background-image:none;
+  border:none;
+  color:#333;
+  right: 0;
+  left: 0;
+  top:0;
+  z-index:9999;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: right;
+  border-radius:none!important;
+  box-shadow:none!important;
+  float:left;
+  overflow:visible!important;
+}
+.mguWrp{
+  padding-bottom:0;
+}
+.MGYGrlHdr{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+.logoGUsa{
+width: 210px;
+height: auto;
+display: block;
+float: left;
+}
+.logoGUsa a:hover{background:none;}
+.logoGUsaBrnd{
+max-width: 210px;
+max-height: 80px;
+display: inline-block;
+padding-left: 0;
+padding-right: 0;
+}
+.logoGUsaBrnd img {
+    width: 100%;
+}
+.logoGUsaBrnd a:hover{background:none;}
+#brandMusa{
+  width: 81.5%;
+  height:auto;
+  display: block;
+  float: right;
+  text-align: right;
+  margin: 0;
+  position: relative;
+  padding-right: 20px;
+}
+.BXMusa{
+font-family:'OpenSans-Bold', Arial, Helvetica, sans-serif;
+display: inline-block;
+margin: 0!important;}
+
+.MNavusa{
+width:100%;
+text-align:right;
+float:right;
+display:inline-block;
+}
+
+.MNavusa > li{
+font-family:'OpenSans-Bold', Arial, Helvetica, sans-serif;
+line-height:1.5em;
+text-align:center;
+color:#333;
+margin:0 auto;
+float:none;
+width:auto;
+display:inline-block;
+}
+.MNavusa > li a{
+  font-family:'OpenSans-Bold', Arial, Helvetica, sans-serif;
+color:#333!important;
+font-size:14px;
+padding:10px 12px;
+letter-spacing:0.5px;
+}
+.MNavusa > li a:hover{
+    background-color:#FFF!important;
+    color:#113546!important;
+    font-weight:bolder;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}
+.MNavusa > li a:active{background:#47AD4D; color:#FFF!important;}
+.MNavusa > li:hover > ul{
+    display:block;
+    margin-top:-3px;
+}
+.MNavusa > li > ul > li > a{
+font-family:'OpenSans-Bold', Arial, Helvetica, sans-serif;
+color:#113546!important;
+border-bottom:1px solid #CCC;
+padding:10px;
+width:100%;
+display:inline-block;
+}
+
+.MNavusa > li > ul > li > a:hover{
+    color:#FFFFFF!important;
+    background:#47AD4D!important;
+    transition:all ease 0.25s;
+    -webkit-transition:all ease 0.25s;
+    -moz-transition:all ease 0.25s;
+}
+.MnavFluids {
+  float: left;
+  overflow: hidden;
+}
+
+.MnavFluids .MGUdropbtn {
+  font-size: 16px;
+  line-height:1.5em;
+  border: none;
+  outline: none;
+  color:#333;
+  padding:0px 16px;
+  background-color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .MnavFluids:hover .MGUdropbtn {
+  background-color: white;
+}
+
+.MnavFluids-content {
+  display: none;
+  position: absolute;
+  background-color: #EEEEEE;
+  width:auto;
+  /*left: 0;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top:25px;
+  margin:0 auto;
+}
+
+.MnavFluids:hover .MnavFluids-content {
+  display: block;
+}
+
+/*--------*/
+.nach{position:relative;}
+.ShoNa-content {
+  display: none;
+  position: absolute;
+  background-color: #EEEEEE;
+  width:auto;
+/*  left:10;*/
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  top:25px;
+  margin:0 auto;
+}
+
+.nach:hover .ShoNa-content {
+  display: block;
+}
+.navCHCh{
+  width:100%; height:200px; display:block; float:left; position:relative;
+}
+.shoNav{
+  width:auto;
+  min-width:400px;
+  display:none;
+  float:left;
+  height:200px;
+  position:absolute;
+  background:#CCC;
+  padding:10px;
+  top:0;
+}
+.shch{list-style:none; min-width:200px; display:block; float:left; width:100%; padding:0; margin:0;}
+.shch li{float:left; width:100%; display:block;}
+.shch li a{
+  width:100%;
+  padding:10px;
+  display:block;
+  float:left;
+  text-align:left;
+}
+.shch li:hover .shoNav{display:block; left:180px;}
+.shch li:hover{width:110%; }
+.shoNav .shch li:before{background:#47AD4D;}
+.Mth:hover{background:#CCCCCC;}
+.Gkmb{width:50%; float:left; display:block; margin:0; padding:0;}
+.Gkmb ul{
+  width:100%;
+  list-style:none;
+  display:block;
+  float:left;
+  margin:0;
+  padding:0;
+}
+.Gkmb ul li{width:100%; display: block; float:left;}
+.Gkmb ul li a{width:100%;}
+
+.rgisterMyU a{
+    width:auto;
+    height:40px;
+    border-radius:25px;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px;
+    border:3px solid #47AD4D;
+    color:#47AD4D!important;
+    line-height: 1em;
+    padding:5px 10px!important;
+}
+.rgisterMyU a:hover{
+    background:#47AD4D;
+    color:#FFF!important;
+    transition:all .25s ease-in;
+}
+.navgym{
+  width:40px;
+  height:40px;
+  background:#47AD4D;
+  padding:5px;
+}
+.navgymlines{
+  background:#FFF;
+  width:100%;
+  height:3px;
+  display:block;
+  float:left;
+  margin:3px 0px;
+}
+.navgymlines:nth-child(2){width:80%; display:block; float:left;}
+.navgymlines:nth-child(3){width:30%; display:block; float:left;}
+/**------**/
+
+
+
+/**mediaQueries**/
+@media only screen and (min-width:1650px){}
+
+@media only screen and (max-width:1250px){}
+
+@media only screen and (max-width:1200px){}
+
+@media only screen and (max-width:991px){
+.Musanv{position:relative!important; width:100%; padding-left:20px; background-color:#FAFAFA; border:none; box-shadow:none;}
+.Musanv li{border-bottom:1px solid #CCC; color:#666; background:#FAFAFA;}
+.BXMusa{display:block; position:fixed; top:49px; width:100%; left:0;}
+#brandMusa{width:100%; padding-right:0;}
+.MNavusa > li{width:100%; display:block; position:relative; float:left; border-bottom:1px solid #CCC; padding:10px; text-align:left;}
+.MNavusa > li a{padding:10px;}
+.ShoNa-content{position:relative; margin-left:20px; width:90%; top:10px;}
+.shch{min-width:100%;}
+.shch li{border-bottom:1px dotted #CCC;}
+.shch li:hover .shoNav{left:0px;}
+.shoNav{position:relative; height:auto; left:0px; width:100%; float:left; min-width:100%;}
+.navCHCh{height:auto;}
+}
+
+
+@media only screen and (max-width:760px){
+}
+
+@media only screen and (max-width:600px){
+
+}
+
+@media only screen and (max-width: 480px){
+  .Gkmb{width:100%}
+  .Gkmb ul li{border-bottom:1px dotted #333;}
+}
+
+@media only screen and (max-width: 360px){}
+
+@media only screen and (max-width: 320px){}
