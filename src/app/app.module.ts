@@ -4,7 +4,6 @@ import { AppComponent } from './app.component';
 import {Routes, RouterModule} from '@angular/router';
 import {FormsModule} from '@angular/forms';
 
-
 //Animations
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatTabsModule, MatButtonToggleModule,   MatCheckboxModule, MatDatepickerModule,  MatDialogModule, MatSlideToggleModule} from '@angular/material';
